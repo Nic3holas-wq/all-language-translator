@@ -4,11 +4,6 @@
 This is a mobile app that does language translation with 106 languages all over the world. 
 
 ## 📱 Screenshots
-
-![Screenshot1](assets/screenshort1.png)
-![Screenshot2](assets/screenshort2.png)
-![Screenshot3](assets/screenshort3.png)
-![Screenshot4](assets/screenshort4.png)
 ![Screenshot5](assets/screenshort5.png)
 ![Screenshot6](assets/screenshort6.png)
 ![Screenshot7](assets/screenshort7.png)
