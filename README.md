@@ -8,7 +8,7 @@ This is a mobile app that does language translation with 106 languages all over 
 ![Screenshot1](path/to/screenshot1.png)
 ![Screenshot2](path/to/screenshot2.png)
 ![Screenshot3](path/to/screenshot3.png)
-
+ 
 
 
 ## 🚀 Features
@@ -30,9 +30,9 @@ This is a mobile app that does language translation with 106 languages all over 
    npx expo start
 
 ## 🤖 Technologies Used
-React Native
-Expo
-Python
+1. React Native
+2. Expo
+3. Python
 
 ## 🎨 How It Works
 Input the text to be translated on the text input provided; select the target language you're translating to; then wait for the magic to happen.
@@ -41,7 +41,7 @@ Input the text to be translated on the text input provided; select the target la
 Contributions are welcome! Follow these steps to contribute:
 
 ## Fork the project.
-1.Create a feature branch (git checkout -b feature/your-feature-name).
-2.Commit your changes (git commit -m 'Add new feature').
-3.Push to the branch (git push origin feature/your-feature-name).
-4.Open a Pull Request.
+1. **Create a feature branch (git checkout -b feature/your-feature-name).**
+2. **Commit your changes (git commit -m 'Add new feature').**
+3. **Push to the branch (git push origin feature/your-feature-name).**
+4. **Open a Pull Request.**
