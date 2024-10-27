@@ -7,6 +7,7 @@ This is a mobile app that does language translation with 106 languages all over 
 ![Screenshot5](assets/screenshort5.png)
 ![Screenshot6](assets/screenshort6.png)
 ![Screenshot7](assets/screenshort7.png)
+![Screenshot8](assets/screenshort8.png)
  
 
 
