@@ -129,7 +129,7 @@ const Home = () => {
 
         try {
             setLoading(true);
-            const response = await fetch('http://192.168.137.1:5000/translate', {
+            const response = await fetch('http://192.168.24.100:5000/translate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -151,7 +151,7 @@ const Home = () => {
         <PaperProvider>
             <View>
                 <Appbar.Header>
-                    <Appbar.Content title='Translator' />
+                    <Appbar.Content  title='Translator' />
                     <Appbar.Action icon="calendar" size={30} onPress={() => {}} />
                     <Appbar.Action icon="magnify" size={30} onPress={() => {}} />
                 </Appbar.Header>
@@ -174,7 +174,7 @@ const Home = () => {
                         <Menu
                             visible={visible}
                             onDismiss={closeMenu}
-                            anchor={<Button onPress={openMenu}>{selectedLanguage}</Button>}
+                            anchor={<Button mode='contained' onPress={openMenu}>{selectedLanguage}</Button>}
                         >
                             {Object.entries(languages).map(([code, label]) => (
                                 <Menu.Item key={code} onPress={() => handleSelect(code, label)} title={label} />
@@ -185,8 +185,9 @@ const Home = () => {
                         <Text variant='titleLarge'>Output Language:</Text>
                         {loading ? (
                             <>
-                            <ActivityIndicator animating={true} color='MD2Colors.red800'/>
+                          
                             <Text variant='bodyLarge'>Translating...</Text>
+                            <ActivityIndicator animating={true} color='MD2Colors.red800'/>
                             </>
                             
                         ) : (
