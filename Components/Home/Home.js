@@ -129,7 +129,7 @@ const Home = () => {
 
         try {
             setLoading(true);
-            const response = await fetch('http://192.168.24.100:5000/translate', {
+            const response = await fetch('http://<your_server_ip>:5000/translate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
